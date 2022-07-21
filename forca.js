@@ -23,6 +23,7 @@ class Forca {
       this.resultados.vidas--;
     }
   }
+  
   buscarEstado() { 
     if(this.resultados.vidas > 0 && this.palavraSecreta === this.resultados.palavra.join('')) {
       return 'ganhou';
